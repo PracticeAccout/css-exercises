@@ -27,9 +27,11 @@ div.text {
     font-size: 14px;
   } 
 
-  Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
+  Then we placed it after the .para selector, taking advantage of the rule order since 
+  both selectors have the same specificity. 
   
-  Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
+  Another solution would be keeping it in its original 
+  place and just chaining selectors, giving this rule a higher specificity:
 
   p.small-para {
     font-size: 12px;
@@ -49,9 +51,11 @@ div.text {
     font-weight: bold;
   } 
 
-  Then we used an ID selector instead, since it has a higher specificity than the .button selector.
+  Then we used an ID selector instead, since it has a higher
+  specificity than the .button selector.
 
-  Other solutions would be to simply move the .confirm rule below the .button rule, or to use the .button.confirm selector without moving it:
+  Other solutions would be to simply move the .confirm rule 
+  below the .button rule, or to use the .button.confirm selector without moving it:
 
   .button.confirm {
     background: green;
@@ -67,7 +71,8 @@ div.text {
 }
 
 /*
-  For the following rule we first removed it from its original position in the file: 
+  For the following rule we first removed it 
+  from its original position in the file: 
 
   .child {
     color: red;

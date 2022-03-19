@@ -12,6 +12,16 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* Task*/
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.right-panel {
+ display: flex;
+
 }
 
 .profile-image {
@@ -45,4 +55,24 @@ a {
 
 ul {
   list-style-type: none;
+
+  /* Task */
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Task */
+.right-panel {
+ align-items: center;
+ gap: 16px;
+}
+
+
+/* Task */
+.left-panel {
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }

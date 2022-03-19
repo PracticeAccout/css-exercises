@@ -1,0 +1,20 @@
+/* Index Styling */
+
+.odd {
+    background-color: #ffb6c1;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+} 
+
+#two {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+.even {
+    background-color: rgb(144, 238, 144);
+    font-weight: bold;
+}

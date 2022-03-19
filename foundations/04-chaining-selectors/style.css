@@ -1,0 +1,22 @@
+/* CHAINING SELECTORS */
+
+/*
+avatar and proportioned classes: {
+    width: 300 pixels wide;
+    height: retains its original square proportions (auto)
+}
+
+avatar and distorted classes {
+    width: 200 pixels wide;
+    height: twice as big (400px);
+*/
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
